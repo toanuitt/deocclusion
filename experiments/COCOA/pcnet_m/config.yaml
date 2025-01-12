@@ -21,8 +21,8 @@ data:
     trainval_dataset: 'PartialCompDataset'
     train_image_root: "data/COCOA/train2014"
     train_annot_file: "data/COCOA/annotations/COCO_amodal_train2014.json"
-    val_image_root: "data/COCOA/val2014"
-    val_annot_file: "data/COCOA/annotations/COCO_amodal_val2014.json"
+    val_image_root: "/kaggle/input/final-dataset/test"
+    val_annot_file: "/kaggle/input/final-dataset/annotations/test.json"
 
     input_size: 256
     enlarge_box: 3.
